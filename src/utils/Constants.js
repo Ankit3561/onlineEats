@@ -5,6 +5,7 @@ export default {
     Search: 'Search',
     Upload: 'Upload',
     Settings: 'Settings',
+    ChangeTheme:"ChangeTheme",
     Btabs: 'Btabs',
     Orders: 'Orserd',
     Profile:'Profile',
@@ -12,6 +13,6 @@ export default {
     About:"About",
     SoftDrisk:"SoftDrisk",
     RestaurantItems:"RestaurantItems",
-    RoutesNAme:"RoutesNAme"
+    RoutesNAme:"RoutesNAme",
   };
   

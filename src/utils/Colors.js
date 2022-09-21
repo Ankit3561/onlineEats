@@ -1,4 +1,5 @@
 export default{
+    fullWwhite:"#fff",
     white:"#eee",
     red:"#bf1313",
     lightRed:"rgba(255, 99, 71, 0.5)",
@@ -12,5 +13,4 @@ export default{
     gray:"	rgb(128,128,128)",
     black:"#000",
     lightBlack:"#424242",
-
-}
+    }

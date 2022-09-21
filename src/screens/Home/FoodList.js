@@ -51,6 +51,7 @@ const RenderImage = props => {
     </>
   );
 };
+
 const RestaurantInfo = props => (
   <View
     style={{
