@@ -6,6 +6,8 @@ import BottomNaviagtion from './BottomNaviagtion';
 import ItemDetailScreen from '../screens/ItemDetailScreen/ItemDetailScreen';
 import CategoryScreen from '../screens/CategoryScreen/CategoryScreen';
 import ChangeThemes from '../screens/ThemeChange/ChangeThemes';
+import Language from '../screens/Language/Language';
+import FlatLists from '../Kiran/FlatLists';
 
 
 
@@ -17,6 +19,7 @@ const Routes = () => {
         <Stack.Navigator
           screenOptions={{headerShown: false}}
           initialRouteName={'BottomNaviagtion'}>
+          
           <Stack.Screen
             name={'BottomNaviagtion'}
             component={BottomNaviagtion}
@@ -27,6 +30,7 @@ const Routes = () => {
           />
           <Stack.Screen name={'CategoryScreen'} component={CategoryScreen} />
           <Stack.Screen name={'ChangeTheme'} component={ChangeThemes}/>
+          <Stack.Screen name={'Language'} component={Language}/>
           {/* <Stack.Screen name={'ChangeTheme'} component={ChangeThemes} /> */}
         </Stack.Navigator>
       </NavigationContainer>

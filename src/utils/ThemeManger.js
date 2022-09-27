@@ -10,7 +10,7 @@ const themes = {
   },
 };
 
-export const ThemeContext = createContext(themes);
+export const ThemeContext = createContext();
 
 export const ThemeProvider = ({children}) => {
   /// This Theme use to dark and light mode

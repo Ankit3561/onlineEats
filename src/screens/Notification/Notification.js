@@ -1,21 +1,22 @@
-import {View, Text,StyleSheet} from 'react-native';
-import React, { useContext } from 'react';
+import {View, Text, StyleSheet} from 'react-native';
+import React, {useContext} from 'react';
 import Header from '../../components/Header';
 import ColorTheme from '../../utils/ColorTheme';
-import { ThemeContext } from '../../utils/ThemeManger';
+import {ThemeContext} from '../../utils/ThemeManger';
 import Colors from '../../utils/Colors';
+import { MyGlobaldata } from '../../navigation/AppRoutes';
 
 const Notification = () => {
-  const {theme}=useContext(ThemeContext)
+  const value = useContext(MyGlobaldata);
   return (
-    <ColorTheme>
+   
       <View>
-        <Header title={'Notification'} />
-        <Text style={[styles.text, styles[`text${theme}`]]}>
-        Notification
-        </Text>
+        <Header title={value.profession} />
+        <Header title={value.name} />
+
+        {/* <Text style={[styles.text, styles[`text${theme}`]]}>Notification</Text> */}
       </View>
-    </ColorTheme>
+
   );
 };
 

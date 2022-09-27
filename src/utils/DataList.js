@@ -9,6 +9,15 @@ export const mainFoodList = [
     rating: 4.5,
   },
   {
+    name: 'Noodle',
+    image_url:
+      'https://assets1.cbsnewsstatic.com/hub/i/2015/07/01/0b059f60-344d-4ada-baae-e683aff3650a/istock000044051102large.jpg',
+    categories: ['Cafe', 'Bar'],
+    price: '$$',
+    reviews: 1244,
+    rating: 4.5,
+  },
+  {
     name: 'Benihana',
     image_url:
       'https://media.istockphoto.com/photos/couple-eating-lunch-with-fresh-salad-and-appetizers-picture-id944478708?k=20&m=944478708&s=612x612&w=0&h=Pi_S842DKFcyI0IWy6oLMdr29a3BPcardvbvVQqahZU=',

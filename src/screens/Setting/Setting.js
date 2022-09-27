@@ -9,14 +9,19 @@ const Setting = ({navigation}) => {
     'Profile',
     'Notifications',
     'Terms & Conditions',
+    'Language',
     'Theme Change',
     'Logout',
+    
   ]);
   const moveTo = item => {
     if (item === 'Theme Change') {
       navigation.navigate('ChangeTheme');
-    } else {
-      alert('Coming Soon');
+    }
+    if (item === 'Language') {
+      navigation.navigate('Language');
+    }else{
+      alert("comming soon")
     }
   };
   return (

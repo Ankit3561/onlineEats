@@ -1,14 +1,15 @@
 import React from 'react';
-import Routes from './src/navigation/Routes';
-import ColorTheme from './src/utils/ColorTheme';
-import {ThemeProvider} from './src/utils/ThemeManger';
+import AppRoutes from './src/navigation/AppRoutes';
+import {Provider} from "react-redux"
+import { rootReducer } from './src/redux/reducer/rootReducer';
+import {createStore} from 'redux';
 
 const App = () => {
   return (
-    <ThemeProvider>
-      <Routes />
-    </ThemeProvider>
-  );
+  <Provider store={createStore(rootReducer)}>
+  <AppRoutes />
+  </Provider>
+  )
 };
 
 export default App;
